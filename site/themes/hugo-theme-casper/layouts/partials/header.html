@@ -30,15 +30,31 @@
     <meta name="description" content="{{ .Site.Params.description }}" />
 
     <meta name="HandheldFriendly" content="True" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
     <link rel="shortcut icon" href="{{.Site.BaseURL}}images/favicon.ico">
 	  <link rel="apple-touch-icon" href="{{.Site.BaseURL}}images/apple-touch-icon.png" />
 
-    <link rel="stylesheet" type="text/css" href="{{.Site.BaseURL}}css/screen.css" />
-    <link rel="stylesheet" type="text/css" href="{{.Site.BaseURL}}css/nav.css" />
-    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Merriweather:300,700,700italic,300italic|Open+Sans:700,400|Inconsolata" />
-
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="{{.Site.BaseURL}}plugins/bootstrap/bootstrap.min.css ">
+    <!-- magnific popup -->
+    <link rel="stylesheet" href="{{.Site.BaseURL}}plugins/magnific-popup/magnific-popup.css ">
+    <!-- Slick Carousel -->
+    <link rel="stylesheet" href="{{.Site.BaseURL}}plugins/slick/slick.css ">
+    <link rel="stylesheet" href="{{.Site.BaseURL}}plugins/slick/slick-theme.css ">
+    <!-- themify icon -->
+    <link rel="stylesheet" href="{{.Site.BaseURL}}plugins/themify-icons/themify-icons.css ">
+    <!-- animate -->
+    <link rel="stylesheet" href="{{.Site.BaseURL}}plugins/animate/animate.css ">
+    <!-- Aos -->
+    <link rel="stylesheet" href="{{.Site.BaseURL}}plugins/aos/aos.css ">
+    <!-- Stylesheets -->
+    <link href="{{.Site.BaseURL}}css/style.css " rel="stylesheet">
+    
+    <!--Favicon-->
+    <link rel="shortcut icon" href="{{.Site.BaseURL}}images/favicon.png " type="image/x-icon">
+    <link rel="icon" href="{{.Site.BaseURL}}images/favicon.png " type="image/x-icon">
 
     {{ if .Site.Params.RSSLink}}
         <link href="{{.Site.Params.RSSLink }}" rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}" />
