@@ -1,6 +1,5 @@
 ---
 title: Club GC ENSTP Yaoundé, Cameroun
-type: "page"
-layout: "contents-static"
+layout: "index"
 ---
-This is the content
+
