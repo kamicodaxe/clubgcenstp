@@ -8,6 +8,38 @@
     <script type="text/javascript" src="{{.Site.BaseURL}}js/jquery.js"></script>
     <script type="text/javascript" src="{{.Site.BaseURL}}js/jquery.fitvids.js"></script>
     <script type="text/javascript" src="{{.Site.BaseURL}}js/index.js"></script>
+
+    <!-- jQuery -->
+    <script src="{{.Site.BaseURL}}plugins/jQuery/jquery.min.js"></script>
+    <!-- Bootstrap JS -->
+    <script src="{{.Site.BaseURL}}plugins/bootstrap/bootstrap.min.js"></script>
+    <!-- magnific popup -->
+    <script src="{{.Site.BaseURL}}plugins/magnific-popup/jquery.magnific.popup.min.js"></script>
+    <!-- slick slider -->
+    <script src="{{.Site.BaseURL}}plugins/slick/slick.min.js"></script>
+    <!-- mixitup filter -->
+    <script src="{{.Site.BaseURL}}plugins/mixitup/mixitup.min.js"></script>
+    <!-- Google Map -->
+    <script
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCcABaamniA6OL5YvYSpB3pFMNrXwXnLwU&amp;libraries=places"></script>
+    <script src="{{.Site.BaseURL}}plugins/google-map/gmap.js"></script>
+    <!-- Syo Timer -->
+    <script src="{{.Site.BaseURL}}plugins/syotimer/jquery.syotimer.js"></script>
+    <!-- aos -->
+    <script src="{{.Site.BaseURL}}plugins/aos/aos.js"></script>
+    <!-- Main Script -->
+    <script src="{{.Site.BaseURL}}js/script.js"></script>
+    <!-- google analitycs -->
+    <script>
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date(); a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+        ga('create', 'Your ID', 'auto');
+        ga('send', 'pageview');
+    </script>
     {{ if .Site.Params.customFooterPartial }}
         {{ partial .Site.Params.customFooterPartial . }}
     {{ end }}
