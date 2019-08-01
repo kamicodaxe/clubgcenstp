@@ -1,0 +1,13 @@
+{{ define "main" }}
+<main>
+  
+  {{ partial "page-title" . }}
+  
+  <!-- <h1>{{ with .Site.GetPage "section" "commissions" }}{{ .Title }}{{ end }}</h1> -->
+
+  {{ .Content }}
+
+  {{ partial "commissions" . }}
+
+</main>
+{{ end }}

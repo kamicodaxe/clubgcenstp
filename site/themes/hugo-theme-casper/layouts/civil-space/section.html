@@ -1,0 +1,13 @@
+{{ define "main" }}
+<main>
+
+  {{ partial "page-title" . }}
+
+  <!-- <h1>{{ with .Site.GetPage "section" "civil-space" }}{{ .Title }}{{ end }}</h1> -->
+
+  {{ .Content }}
+  
+  {{ partial "civil-space-expanded" . }}
+
+</main>
+{{ end }}

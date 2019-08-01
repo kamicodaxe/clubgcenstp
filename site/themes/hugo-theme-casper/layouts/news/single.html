@@ -1,0 +1,85 @@
+{{ define "main" }}
+
+{{ partial "page-title" . }}
+
+<!-- blog single -->
+<section>
+  <div class="container">
+    <div class="row">
+      <div class="col-10 offset-1">
+        <!-- tags -->
+        <div class="py-10">
+          <ul class="tag-list">
+            <li class="list-inline-item"><a href="#tags/clubgc">clubgc</a></li>
+            <li class="list-inline-item"><a href="#tags/enstp">enstp</a></li>
+            <li class="list-inline-item"><a href="#tags/hi-tech">hi-tech</a></li>
+            <li class="list-inline-item"><a href="#tags/commission">commissions</a></li>
+            <li class="list-inline-item"><a href="#tags/éducation">éducation</a></li>
+            <li class="list-inline-item"><a href="#tags/start-up">start-up</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-lg-8 offset-lg-2 py-10">
+        <div class="border rounded bg-white">
+          <img class="img-fluid w-100 rounded-top" src="https://via.placeholder.com/720x400.jpg" alt="blog-image">
+          <div class="p-4">
+            <h3>Duis aute irure dolor in reprehenderit</h3>
+            <ul class="list-inline d-block pb-4 border-bottom mb-3">
+              <li class="list-inline-item text-color">Posted By Bogital</li>
+              <li class="list-inline-item text-color">On 24 Sep</li>
+              <!-- <li class="list-inline-item text-color">Tag: [Advice]</li> -->
+            </ul>
+            <div class="post-content">
+              {{ .Content }}
+            </div>
+          </div>
+        </div>
+        <div class="py-4 border-bottom mb-100">
+          <div class="row">
+            <div class="col-lg-5 mb-4 mb-lg-0">
+              <!-- share-icon -->
+              <div class="d-flex">
+                <span class="font-weight-light mt-2 mr-3">Share:</span>
+                <ul class="list-inline d-inline-block">
+
+                  <li class="list-inline-item">
+                    <a class="share-icon bg-secondary" href="#share">
+                      <i class="ti-facebook"></i>
+                    </a>
+                  </li>
+
+                  <li class="list-inline-item">
+                    <a class="share-icon bg-secondary" href="#share">
+                      <i class="ti-twitter-alt"></i>
+                    </a>
+                  </li>
+
+                  <li class="list-inline-item">
+                    <a class="share-icon bg-secondary" href="#share">
+                      <i class="ti-linkedin"></i>
+                    </a>
+                  </li>
+
+                  <li class="list-inline-item">
+                    <a class="share-icon bg-secondary" href="#share">
+                      <i class="ti-google"></i>
+                    </a>
+                  </li>
+
+                </ul>
+              </div>
+            </div>
+            <!-- tags -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+</section>
+<!-- /blog-single -->
+
+{{ end }}

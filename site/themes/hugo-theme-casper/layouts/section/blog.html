@@ -1,0 +1,6 @@
+{{ define "main" }}
+<main>
+  <h1>{{ with .Site.GetPage "section" "blog" }}{{ .Title }}{{ end }}</h1>
+  {{ .Content }}
+</main>
+{{ end }}
