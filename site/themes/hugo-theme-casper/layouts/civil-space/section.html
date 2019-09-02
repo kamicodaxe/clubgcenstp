@@ -1,13 +1,43 @@
 {{ define "main" }}
 <main>
 
-  {{ partial "page-title" . }}
+  <!-- page title -->
+  <section class="page-title overlay" style="background-image: url('{{ .Params.cover }}');">
+  
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <h2 class="text-white font-weight-bold">{{ .LinkTitle }}</h2>
+          <ol class="breadcrumb">
+            <li>
+              <a href="/">Home</a>
+            </li>
+            <li><a href="{{ .RelPermalink }}">{{ .RelPermalink }}</a></li>
+          </ol>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- /page title -->
 
   <!-- <h1>{{ with .Site.GetPage "section" "civil-space" }}{{ .Title }}{{ end }}</h1> -->
 
-  {{ .Content }}
+  <!-- content single -->
+  <section class="section">
+    <div class="container">
+      <div class="row">
+        <!-- service single content -->
+        <div class="col-lg-8 order-lg-2 order-1 offset-lg-2">
+  
+            {{ .Content }}
+
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- /content single -->
   
   {{ partial "civil-space-expanded" . }}
 
 </main>
-{{ end }}
+{{ end }} 

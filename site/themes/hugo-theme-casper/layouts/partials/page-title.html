@@ -1,18 +1,21 @@
 <!-- page title -->
 <section class="page-title overlay"
   style="background-image: url('https://via.placeholder.com/1600x400.jpg');">
+  
   <div class="container">
     <div class="row">
       <div class="col-lg-12 text-center">
-        <h2 class="text-white font-weight-bold">Title</h2>
+        <h2 class="text-white font-weight-bold">{{ .LinkTitle }}</h2>
         <ol class="breadcrumb">
           <li>
             <a href="/">Home</a>
           </li>
-          <li>Current Page</li>
+          <li><a href="{{ .RelPermalink }}">{{ .RelPermalink }}</a></li>
         </ol>
       </div>
     </div>
   </div>
 </section>
 <!-- /page title -->
+
+<!-- /images/civil-space/clubgc-civil-space-cover.gif -->
