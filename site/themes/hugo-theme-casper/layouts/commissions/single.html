@@ -1,13 +1,17 @@
 {{ define "main" }}
 
+{{ partial "page-title" . }}
+
+
 <!-- content single -->
 <section class="section">
   <div class="container">
     <div class="row">
       <!-- service single content -->
       <div class="col-lg-8 order-lg-2 order-1 offset-lg-2">
-        <img class="img-fluid w-100 mb-60 rounded-top" src="{{.Params.cover}}"
-          alt="clubgcenstp-commission-image">
+        {{ if .Params.cover }}
+         <img class="img-fluid w-100 mb-60 rounded-top" src="{{.Params.cover}}" alt="clubgcenstp-commission-image">
+        {{end}}
         <div class="post-content">
           {{ .Content }}
         </div>
