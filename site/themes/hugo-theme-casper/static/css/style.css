@@ -875,7 +875,7 @@ code{
 }
 
 .navigation .navbar .nav-item:last-child .nav-link {
-  color: #fff;
+  /* color: #fff; */
 }
 
 .navigation .navbar .nav-item .nav-link.pgactive {
