@@ -3,6 +3,7 @@ draft: false
 title: "Civil Space - Edition n"
 description: Civil Space Edition n
 type: civil-space
+image: /images/civil-space/9.jpg
 ---
 
 The preparation for the 2019 Edition of the Directors Cup of the National Advanced School of

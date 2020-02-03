@@ -3,6 +3,7 @@ date: "2016-09-09T10:15:23-04:00"
 draft: false
 title: éducation
 description: "Commission éducation du Club GC ENSTP"
+cover: /images/commissions/cfls.jpg
 ---
 
 Le soutien scolaire est l'aide individuelle dispensée aux élèves, et qui offre une solution aux difficultés qu’affrontent de nombreux élèves à travers des séances individuelles avec un interlocuteur volontaire.

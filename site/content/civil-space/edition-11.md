@@ -3,6 +3,7 @@ draft: false
 title: "Civil Space - Edition 11"
 description: Civil Space Edition
 type: civil-space
+image: /images/civil-space/11.jpg
 ---
 
 The mentorship program that took place on the
