@@ -4,6 +4,9 @@ draft: false
 title: Projet Associative
 description: "Commission du Club GC ENSTP"
 cover: /images/commissions/cpa.jpg
+image: /images/commissions/cpa.jpg
+coverImage: /images/commissions/1550x600-Projet-Associative.jpg
+
 ---
 
 Pour son premier et unique mandat, le président du club Génie Civil de l’Ecole Nationale Supérieure des Travaux Publics de Yaoundé (ENSTP-Ydé) mis les petits plats dans les grands. Dans l’exercice de ses fonctions, KACDEU WELAPINOU Baudoin crée la commission projet associatif dont la mission première est de permettre aux élèves de l’ENSTP de toucher du doigt au sens littéral et figuré, les phases de conception et de réalisation d’un projet. Deuxiement, il s’agit aussi d’accoutumer ces élèves avec les outils de l’ingénieur tel que les formules de calculs, les méthodes de conception, les logiciels appliqués au dessins et dimensionnement et enfin, la commission doit promouvoir la collaboration du génie civil avec les autres filières (domaine d’expertise). 

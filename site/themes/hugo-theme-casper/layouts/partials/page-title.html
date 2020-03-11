@@ -1,15 +1,19 @@
 <!-- page title -->
 <!-- style="background-image: url('https://via.placeholder.com/1600x400.jpg');" -->
-<section class="page-title overlay">
+<section class="page-title overlay"
+  
+  style="{{if .Params.coverImage}}background-image: url({{.Params.coverImage}});{{ end }}"
+  
+>
   
   <div class="container">
     <div class="row">
       <div class="col-lg-12 text-center">
         <h2 class="text-white font-weight-bold">{{ .LinkTitle }}</h2>
         <ol class="breadcrumb">
-          <li>
+          <!-- <li>
             <a href="/">Home</a>
-          </li>
+          </li> -->
           <li><a href="{{ .RelPermalink }}">{{ .RelPermalink }}</a></li>
         </ol>
       </div>
