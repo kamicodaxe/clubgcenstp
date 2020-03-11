@@ -10,8 +10,8 @@ paginate = 10
 canonifyurls = true
 
 [params]
-  description = "this is my description"
-  cover = "images/cover.jpg"
+  description = "Site du club GC ENSTP"
+  cover = "images/logo.png"
   author = "Kami Ruvice"
   authorlocation = "Yaoundé, Cameroun"
   authorwebsite = "http://bogital.com"
