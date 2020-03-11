@@ -33,7 +33,7 @@ Un nombre total de 215 étudiants ont participer aux visites de chantier organis
 
   <b>Nombre d’étudiants</b> : 40
 
-  <img class="img-fluid w-100 mb-60 rounded-top" src="/images/commissions/visit-1.jpg" alt="clubgcenstp-Sortie Pédagogique 1">
+  <img class="img-fluid w-100 mb-60 rounded-top" src="/images/commissions/visit-2.jpg" alt="clubgcenstp-Sortie Pédagogique 1">
 
 3. Construction d’une route
 
@@ -43,7 +43,7 @@ Un nombre total de 215 étudiants ont participer aux visites de chantier organis
 
   <b>Nombre d’étudiants</b> : 55
 
-  <img class="img-fluid w-100 mb-60 rounded-top" src="/images/commissions/visit-1.jpg" alt="clubgcenstp-Sortie Pédagogique 1">
+  <img class="img-fluid w-100 mb-60 rounded-top" src="/images/commissions/visit-3.jpg" alt="clubgcenstp-Sortie Pédagogique 1">
 
 4. Construction d’un Hôtel 5 Etoiles(R+12)
 
@@ -53,4 +53,4 @@ Un nombre total de 215 étudiants ont participer aux visites de chantier organis
 
   <b>Nombre d’étudiants</b> : 90
   
-  <img class="img-fluid w-100 mb-60 rounded-top" src="/images/commissions/visit-1.jpg" alt="clubgcenstp-Sortie Pédagogique 1">
+  <img class="img-fluid w-100 mb-60 rounded-top" src="/images/commissions/visit-4.jpg" alt="clubgcenstp-Sortie Pédagogique 1">
