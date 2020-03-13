@@ -1,7 +1,7 @@
 ---
 title: Conférence sur l’intelligence artificielle
 description: Conférence sur l’intelligence artificielle
-cover: /images/news/cais.jpg
+coverImage: /images/news/cais.jpg
 ---
 
 Le 09 Juillet 2019 à l’Ecole Nationale Supérieure des Travaux Publics de Yaoundé (ENSTP) s’est tenue une conférence sous le thème ‘intelligence  artificielle appliquée au btp’, thème autour duquel il était question de débattre sur le rôle de l’intelligence artificielle dans le secteur de la construction et son importance dans les branches concernées. Des invités prestigieux ont participés à cette conférence. Nous nommons ici, celui dont le nom ne saurait ne pas être cité quand on parle d’intelligence artificielle ou encore de drones au Cameroun, William ELONG, CEO de Will & Brothers, dans ces propos, a défini ce que c’est que l’intelligence artificielle, ensuite il a présenté les principales activités et domaines d’expertise de Will & Brothers, AlgoDrone et DRONEAFRICA. William ELONG à la fin de son intervention a insisté sur ce que, les jeunes notamment les jeunes camerounais ne devraient mettre de côté leur peur et tous les aprioris et préjugés quand ils se décident à entreprendre. En effet, William ELONG a incité les jeunes apprenants de l’ENSTP à utiliser leurs compétences pour le développement du Cameroun au travers de l’entreprenariat à l’aide de nouvelles technologies. Dans la même lancé, nous avons suivi tour à tour les Ingénieurs Topographes, Geomaticiens, Derrick  DEMEVENG, Emile NDAME qui nous ont entretenues sur l’application  de l’intelligence  artificielle  et  des  drones en particulier  dans le secteur  de la construction.

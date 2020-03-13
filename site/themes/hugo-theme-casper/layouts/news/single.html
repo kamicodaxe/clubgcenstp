@@ -12,10 +12,10 @@
           <ul class="tag-list">
             <li class="list-inline-item"><a href="#tags/clubgc">clubgc</a></li>
             <li class="list-inline-item"><a href="#tags/enstp">enstp</a></li>
-            <li class="list-inline-item"><a href="#tags/hi-tech">hi-tech</a></li>
+            <!-- <li class="list-inline-item"><a href="#tags/hi-tech">hi-tech</a></li> -->
             <li class="list-inline-item"><a href="#tags/commission">commissions</a></li>
-            <li class="list-inline-item"><a href="#tags/éducation">éducation</a></li>
-            <li class="list-inline-item"><a href="#tags/start-up">start-up</a></li>
+            <!-- <li class="list-inline-item"><a href="#tags/éducation">éducation</a></li> -->
+            <!-- <li class="list-inline-item"><a href="#tags/start-up">start-up</a></li> -->
           </ul>
         </div>
       </div>
@@ -23,18 +23,19 @@
     <div class="row">
       <!-- service single content -->
       <div class="col-lg-8 order-lg-2 order-1 offset-lg-2">
-        <img class="img-fluid w-100 mb-60 rounded-top" src="{{ .Params.cover }}"
+        {{ if .Params.cover }}
+          <img class="img-fluid w-100 mb-60 rounded-top" src="{{ .Params.cover }}"
           alt="clubgcenstp-commission-image">
+        {{ end }}
         <div class="post-content">
           {{ .Content }}
         </div>
       </div>
     </div>
 
-    <div class="py-4 border-bottom mb-100">
+    <!-- <div class="py-4 border-bottom mb-100">
       <div class="row">
         <div class="col-lg-5 mb-4 mb-lg-0">
-          <!-- share-icon -->
           <div class="d-flex">
             <span class="font-weight-light mt-2 mr-3">Share:</span>
             <ul class="list-inline d-inline-block">
@@ -66,9 +67,9 @@
             </ul>
           </div>
         </div>
-        <!-- tags -->
+
       </div>
-    </div>
+    </div> -->
     
   </div>
 </section>

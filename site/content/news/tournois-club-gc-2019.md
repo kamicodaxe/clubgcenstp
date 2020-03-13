@@ -1,7 +1,7 @@
 ---
 title: TOURNOIS DU CLUB GC 2019
 description: TOURNOIS DU CLUB GC 2019
-cover: /images/news/tournois.jpg
+coverImage: /images/news/tournois.jpg
 
 ---
 
