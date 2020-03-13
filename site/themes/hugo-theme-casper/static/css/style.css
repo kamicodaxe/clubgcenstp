@@ -451,13 +451,13 @@ button {
   position: relative;
 }
 
-.breadcrumb a::before {
+/* .breadcrumb a::before {
   position: absolute;
   content: '/';
   right: -17px;
   top: 2px;
   height: 12px;
-}
+} */
 
 /* 1.2.2 404 page start */
 .page-404 {
