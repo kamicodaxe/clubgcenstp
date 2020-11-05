@@ -13,6 +13,9 @@
   },
   "author": "",
   "license": "MIT",
+  "resolutions": {
+    "graceful-fs": "^4.2.4"
+  },
   "dependencies": {
     "autoprefixer": "^6.3.7",
     "babel-eslint": "^6.1.2",
