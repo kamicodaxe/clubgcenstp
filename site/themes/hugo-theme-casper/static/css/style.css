@@ -2564,4 +2564,41 @@ blockquote{
   cursor: pointer;
 }
 
+
+/* ==========================================================================
+   1. Annuaire
+   ========================================================================== */
+
+.ann-container {
+  padding: 8px;
+  height: 98px;
+  display: flex;
+}
+
+.ann-container div {
+  display: inline-block;
+}
+
+.ann-image {
+  height: 64px;
+  width: 64px;
+  border-radius: 32px;
+  margin: 8;
+  background-color: white;
+  box-shadow: #666 ;
+}
+
+.ann-data {
+  border-bottom-width: 1px;
+  border-color: #848484;
+  margin-left: 2px;
+}
+
+
+.ann-data p {
+  margin: 0;
+  margin-top: 4px;
+}
+
+
 /*# sourceMappingURL=maps/style.css.map */

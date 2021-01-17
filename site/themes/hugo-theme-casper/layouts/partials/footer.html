@@ -117,7 +117,7 @@
             <div class="row">
                 <div class="col-lg-6 col-md-5">
                     <p class="text-white text-center text-md-left">
-                        <span class="text-primary">ClubGC_ENSTP</span> &copy; 2020 All Right Reserved</p> 
+                        <span class="text-primary">ClubGC_ENSTP</span> &copy; 2021 All Right Reserved</p> 
                 </div>
                 <div class="col-lg-6 col-md-7">
                     <p>Powered by <a href="https://bogital.com" target="_blank">Bogital</a> and the Hi-Tech commission of clubGC.</p>
@@ -167,8 +167,8 @@
         ga('create', 'Your ID', 'auto');
         ga('send', 'pageview');
     </script>
-    {{ if .Site.Params.customFooterPartial }}
-        {{ partial .Site.Params.customFooterPartial . }}
+    {{ if .Params.customFooterPartial }}
+        {{ partial .Params.customFooterPartial . }}
     {{ end }}
 </body>
 </html>
